@@ -1,0 +1,30 @@
+my-next-app/           
+  ├── .next/           
+  ├── node_modules/    
+  |── app
+  | ├── components
+  | │   └── Card.js
+  | ├── pages
+  |     ├── Home.js
+  |     └── About.js
+  ├── public/          
+  ├── package.json     
+  ├── package-lock.json
+  └── .gitignore       
+
+Now, let's explain each folder in more detail:
+---------------------------------------------------------------------------------------------------------------
+1. app: This folder contains the project's source code.
+2. components: This folder contains reusable React components.
+3. pages: This folder contains the project's pages. Each page is a separate file that defines a route.
+4. globals.css: This folder contains the project's global CSS styles.
+5. layout.js: A root layout is the top-most layout in the root app directory. It is used to define the <html> and <body> tags and other globally shared UI.
+6. page.js: A page is UI that is unique to a route.
+7. node_modules: This folder contains all the Node.js packages and dependencies required by your project. It is auto-generated when you run npm install and should not be modified manually.
+8. public: This folder contains static assets, such as images and documents.
+9. next.config.js: This file is used to configure Next.js.
+10. package.json: This file contains project metadata, including the project name, version, and dependencies. It also provides scripts for running the project, such as development mode, production build, etc.
+11. package-lock.json: This is an auto-generated file that keeps track of the exact versions of dependencies installed in your project. It helps ensure consistent installations across different machines.
+12. .gitignore: This file lists files and folders that should not be tracked by version control (Git). It's used to avoid committing unnecessary files to your repository
+
+
